@@ -1,0 +1,63 @@
+.progress {
+  width: 100px;
+  height: 14px;
+  border: 1px solid #fff;
+  padding: 12px 10px;
+  box-shadow: 0 0 10px #aaa;
+}
+
+.progress .bar {
+  height: 100%;
+  background: linear-gradient(gold, #c85, gold);
+  background-repeat: repeat;
+  box-shadow: 0 0 10px 0px orange;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 50px;
+  }
+}
+
+@keyframes end {
+  0%,
+  100% {
+    box-shadow: 0 0 10px 0px orange;
+  }
+  50% {
+    box-shadow: 0 0 15px 5px orange;
+  }
+}
+
+.bar1 {
+  width: 50%;
+}
+
+.bar2 {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.skillset1 {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.skillset2 {
+  display: flex;
+  align-items: center;
+}
+
+.skillset1-topic {
+  margin-right: 40px;
+}
+
+.skillset2-topic {
+  margin-right: 20px;
+}
