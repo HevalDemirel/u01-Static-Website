@@ -1,29 +1,90 @@
-.cv-container {
-    display: flex;
+body {
+  margin: 0;
 }
 
+.cv-container {
+  display: flex;
+}
 
 .left-side {
-    background-color: rgb(77, 179, 197);
-    width: 30%;
-    height: 100%;
+  background-color: rgb(166, 223, 234);
+  width: 30%;
+  height: 100%;
 }
 
 .right-side {
-    background-color: rgb(64, 209, 161);
-    width: 70%;
-    height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(183, 233, 217);
+  width: 70%;
+  height: 100%;
 }
 
 .minbild {
-    border-radius: 50%;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+  border-radius: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
-.personal-summary {
-    border-bottom: 2px solid grey;
+.personal-summary-header {
+  border-bottom: 2px solid grey;
+}
+
+.work-experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.work-experience-header {
+  border-bottom: 2px solid grey;
+}
+
+.work-experience-title-and-date {
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+
+.work-experience-description {
+  width: 75%;
+  float: left;
+  text-align: left;
+}
+
+.work-experience-date,
+.work-experience-text {
+  margin-top: 10px !important;
+}
+
+.work-experience-title-and-date > p,
+.work-experience-description > p {
+  margin: 0px;
+}
+
+.work-experience-summary {
+  padding-bottom: 24px;
+}
+
+.skills {
+  border-bottom: 2px solid grey;
+}
+
+.ball {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.boxing {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.hamburger {
+  margin-right: 10px;
+  width: 40px;
 }
