@@ -13,8 +13,7 @@ body {
 }
 
 .right-side {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 40px;
   background-color: rgb(183, 233, 217);
   width: 70%;
   height: 100%;
@@ -29,8 +28,36 @@ body {
   margin-top: 40px;
 }
 
+.contact-leftside {
+  padding-left: 55px;
+}
+
+.my-location {
+  width:30px;
+  padding-left: 40px;
+}
+
+.my-number {
+  width: 30px;
+  padding-left: 40px;
+  display: block;
+  padding-top: 10px;
+}
+
+.mail-me{
+  width: 30px;
+  padding-left: 40px;
+  display: block;
+  padding-top: 10px;
+}
+
 .personal-summary-header {
   border-bottom: 2px solid grey;
+  width: 50%;
+}
+
+.personal-summary-header  p {
+padding-right: 10px;
 }
 
 .work-experience-container {
@@ -42,6 +69,7 @@ body {
 
 .work-experience-header {
   border-bottom: 2px solid grey;
+  width: 50%;
 }
 
 .work-experience-title-and-date {
@@ -56,11 +84,6 @@ body {
   text-align: left;
 }
 
-.work-experience-date,
-.work-experience-text {
-  margin-top: 10px !important;
-}
-
 .work-experience-title-and-date > p,
 .work-experience-description > p {
   margin: 0px;
@@ -72,6 +95,7 @@ body {
 
 .skills {
   border-bottom: 2px solid grey;
+  width: 50%;
 }
 
 .ball {
@@ -89,7 +113,7 @@ body {
   width: 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .cv-container {
     flex-direction: column;
   }
@@ -101,10 +125,23 @@ body {
 
   .right-side {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
+  }
+
+  .description-summary{
+    padding-right: 40px;
   }
 
   .minbild {
     margin-top: 20px;
+  }
+
+  .work-experience-title-and-date {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+
+  .work-experience-date {
+    margin: 0;
   }
 }
