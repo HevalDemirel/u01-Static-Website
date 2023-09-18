@@ -88,3 +88,23 @@ body {
   margin-right: 10px;
   width: 40px;
 }
+
+@media screen and (max-width: 600px) {
+  .cv-container {
+    flex-direction: column;
+  }
+
+  .left-side {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-side {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .minbild {
+    margin-top: 20px;
+  }
+}
