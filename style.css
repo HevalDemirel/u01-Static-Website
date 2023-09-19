@@ -9,7 +9,6 @@ body {
 .left-side {
   background-color: rgb(166, 223, 234);
   width: 30%;
-  height: 100%;
 }
 
 .right-side {
@@ -79,22 +78,22 @@ body {
 }
 
 .facebook-div {
-  display: flex;
+  padding-top: 20px;
   align-items: end;
 }
 
 .instagram-div {
-  display: flex;
+  padding-top: 40px;
   align-items: end;
 }
 
 .twitter-div {
-  display: flex;
+  padding-top: 40px;
   align-items: end;
 }
 
 .linkedin-div{
-  display: flex;
+  padding-top: 40px;
   align-items: end;
 }
 
@@ -183,6 +182,10 @@ body {
 .hamburger {
   margin-right: 10px;
   width: 40px;
+}
+
+.references-h2 {
+  padding-top: 10%;
 }
 
 @media screen and (max-width: 767px) {
