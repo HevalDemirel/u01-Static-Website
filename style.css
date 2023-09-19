@@ -7,13 +7,13 @@ body {
 }
 
 .left-side {
-  background-color: rgb(166, 223, 234);
+  background-color: rgb(150, 223, 237);
   width: 30%;
 }
 
 .right-side {
   padding: 40px;
-  background-color: rgb(183, 233, 217);
+  background-color: rgb(207, 244, 232);
   width: 70%;
   height: 100%;
 }
@@ -49,6 +49,8 @@ body {
 }
 
 .my-number-div {
+  padding-right: 60px;
+  padding-top: 10px;
   display: flex;
   align-items: end;
 }
@@ -83,17 +85,17 @@ body {
 }
 
 .instagram-div {
-  padding-top: 40px;
+  padding-top: 25px;
   align-items: end;
 }
 
 .twitter-div {
-  padding-top: 40px;
+  padding-top: 25px;
   align-items: end;
 }
 
 .linkedin-div{
-  padding-top: 40px;
+  padding-top: 25px;
   align-items: end;
 }
 
