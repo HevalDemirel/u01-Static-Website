@@ -45,58 +45,74 @@ body {
 
 .location-div {
   display: flex;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
 }
 
 .my-number-div {
-  padding-right: 60px;
-  padding-top: 10px;
   display: flex;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
 }
 
 .mail-me-div {
   display: flex;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
 }
 
 .my-location {
   width: 30px;
-  padding-left: 40px;
 }
 
 .my-number {
+  margin-right: 12px;
   width: 24px;
-  padding-left: 40px;
   display: block;
-  padding-top: 10px;
 }
 
 .mail-me {
-  width: 32px;
-  padding-left: 40px;
+  margin-right: 10px;
+  width: 34px;
   display: block;
-  padding-top: 10px;
 }
 
 .facebook-div {
-  padding-top: 20px;
-  align-items: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.link-to-facebook,
+.link-to-instagram,
+.link-to-linkedin,
+.link-to-twitter {
+  padding-left: 5px;
 }
 
 .instagram-div {
   padding-top: 25px;
-  align-items: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 74px;
 }
 
 .twitter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 25px;
-  align-items: end;
+  padding-right: 78px;
 }
 
 .linkedin-div{
+  display: flex;
+  justify-content: center;
   padding-top: 25px;
-  align-items: end;
+  align-items: center;
+  padding-right: 38px;
 }
 
 .linkedint {
@@ -186,8 +202,19 @@ body {
   width: 40px;
 }
 
-.references-h2 {
+.references-header {
   padding-top: 10%;
+}
+
+.references-text {
+  padding-bottom: 20px;
+}
+
+iframe {
+  display: block;
+  margin-top: 20px;
+  width: 600px;
+  height: 300px;
 }
 
 @media screen and (max-width: 767px) {
@@ -201,8 +228,8 @@ body {
   }
 
   .right-side {
+    padding: 0px;
     width: 100%;
-    padding: 20px;
   }
 
   .description-summary {
@@ -222,5 +249,10 @@ body {
 
   .work-experience-date {
     margin: 0;
+  }
+
+  iframe {
+    width: 300px;
+    height: 200px;
   }
 }
