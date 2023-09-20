@@ -40,11 +40,11 @@
   width: 70%;
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .skillset1 {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
   display: flex;
   align-items: center;
 }
@@ -55,9 +55,9 @@
 }
 
 .skillset1-topic {
-  margin-right: 40px;
+  margin-right: 2.5rem;
 }
 
 .skillset2-topic {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }

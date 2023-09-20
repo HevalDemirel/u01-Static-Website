@@ -6,13 +6,16 @@ body {
   display: flex;
 }
 
-.left-side {
+.contact-me {
   background-color: rgb(150, 223, 237);
   width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .right-side {
-  padding: 40px;
+  padding: 2.5rem;
   background-color: rgb(207, 244, 232);
   width: 70%;
   height: 100%;
@@ -24,13 +27,13 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
-.description-summary{
-  padding-right: 40px;
+.description-summary {
+  padding-right: 2.5rem;
   width: 60%;
-  line-height: 25px;
+  line-height: 1.5625rem;
 }
 
 .contact-leftside {
@@ -43,26 +46,35 @@ body {
   flex-direction: column;
 }
 
-.location-div {
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education h2 {
+  text-align: center;
+}
+
+.contact-info {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.my-number-div {
+.my-number-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.mail-me-div {
+.mail-me-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .my-location {
-  width: 30px;
+  width: 1.875rem;
 }
 
 .my-number {
@@ -72,67 +84,67 @@ body {
 }
 
 .mail-me {
-  margin-right: 10px;
-  width: 34px;
+  margin-right: 0.625rem;
+  width: 2.125rem;
   display: block;
 }
 
-.facebook-div {
+.facebook-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 30px;
+  padding-right: 1.875rem;
 }
 
 .link-to-facebook,
 .link-to-instagram,
 .link-to-linkedin,
 .link-to-twitter {
-  padding-left: 5px;
+  padding-left: 0.3125rem;
 }
 
-.instagram-div {
-  padding-top: 25px;
+.instagram-container {
+  padding-top: 1.5625rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 74px;
+  padding-right: 4.625rem;
 }
 
-.twitter-div {
+.twitter-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 25px;
-  padding-right: 78px;
+  padding-top: 1.5625rem;
+  padding-right: 4.875rem;
 }
 
-.linkedin-div{
+.linkedin-container {
   display: flex;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 1.5625rem;
   align-items: center;
-  padding-right: 38px;
+  padding-right: 2.375rem;
 }
 
 .linkedint {
-  width: 30px;
-  padding-left: 40px;
+  width: 1.875rem;
+  padding-left: 2.5rem;
 }
 
 .twittert {
-  width: 30px;
-  padding-left: 40px;
+  width: 1.875rem;
+  padding-left: 2.5rem;
 }
 
-.instagramt{
-  width: 30px;
-  padding-left: 40px;
+.instagramt {
+  width: 1.875rem;
+  padding-left: 2.5rem;
 }
 
-.facebookt{
-  width: 30px;
-  padding-left: 40px;
+.facebookt {
+  width: 1.875rem;
+  padding-left: 2.5rem;
 }
 
 .personal-summary-header {
@@ -141,7 +153,7 @@ body {
 }
 
 .personal-summary-header p {
-  padding-right: 10px;
+  padding-right: 0.625rem;
 }
 
 .work-experience-container {
@@ -170,7 +182,7 @@ body {
 
 .work-experience-text {
   width: 60%;
-  line-height: 22px;
+  line-height: 1.375rem;
 }
 
 .work-experience-title-and-date > p,
@@ -179,7 +191,7 @@ body {
 }
 
 .work-experience-summary {
-  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
 }
 
 .skills {
@@ -188,33 +200,25 @@ body {
 }
 
 .ball {
-  margin-right: 10px;
-  width: 40px;
+  margin-right: 0.625rem;
+  width: 2.5rem;
 }
 
 .boxing {
-  margin-right: 10px;
-  width: 40px;
+  margin-right: 0.625rem;
+  width: 2.5rem;
 }
 
 .hamburger {
-  margin-right: 10px;
-  width: 40px;
-}
-
-.references-header {
-  padding-top: 10%;
-}
-
-.references-text {
-  padding-bottom: 20px;
+  margin-right: 0.625rem;
+  width: 2.5rem;
 }
 
 iframe {
   display: block;
   margin-top: 20px;
-  width: 600px;
-  height: 300px;
+  width: 37.5rem;
+  height: 18.75rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -222,7 +226,7 @@ iframe {
     flex-direction: column;
   }
 
-  .left-side {
+  .contact-me {
     width: 100%;
     text-align: center;
   }
