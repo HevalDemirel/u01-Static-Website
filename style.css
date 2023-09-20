@@ -7,16 +7,18 @@ body {
 }
 
 .contact-me {
-  background-color: rgb(150, 223, 237);
   width: 30%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
+.right-side , .contact-me{
+background-image: linear-gradient(gold, aqua);
+}
+
 .right-side {
   padding: 2.5rem;
-  background-color: rgb(207, 244, 232);
   width: 70%;
   height: 100%;
 }
@@ -232,7 +234,6 @@ iframe {
   }
 
   .right-side {
-    padding: 0px;
     width: 100%;
   }
 
