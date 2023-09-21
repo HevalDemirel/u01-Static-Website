@@ -14,7 +14,7 @@ body {
 }
 
 .right-side , .contact-me{
-background-image: linear-gradient(gold, aqua);
+background-image: linear-gradient(rgb(121, 197, 248), rgb(30, 124, 145));
 }
 
 .right-side {
@@ -177,7 +177,7 @@ background-image: linear-gradient(gold, aqua);
 }
 
 .personal-summary-header {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(0, 0, 0);
   width: 50%;
 }
 
@@ -193,7 +193,7 @@ background-image: linear-gradient(gold, aqua);
 }
 
 .work-experience-header {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(0, 0, 0);
   width: 50%;
 }
 
@@ -224,7 +224,7 @@ background-image: linear-gradient(gold, aqua);
 }
 
 .skills {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(0, 0, 0);
   width: 50%;
 }
 
