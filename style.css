@@ -19,7 +19,7 @@ background-image: linear-gradient(gold, aqua);
 
 .right-side {
   padding: 2.5rem;
-  width: 70%;
+  width: 100vw;
   height: 100%;
 }
 
@@ -256,12 +256,12 @@ iframe {
   }
 
   .contact-me {
-    width: 100%;
+    width: 100vw;
     text-align: center;
   }
 
   .right-side {
-    width: 100%;
+    width: calc(100vw - 80px);
   }
 
   .description-summary {
