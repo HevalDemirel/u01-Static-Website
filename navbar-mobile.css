@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+  .navbar {
+    background-color: #588164;
+    height: auto; }
+    .navbar ul {
+      flex-direction: column; }
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 0.625rem; }
+    .navbar a {
+      padding: 0.3125rem; } }
+
+/*# sourceMappingURL=navbar-mobile.css.map */
